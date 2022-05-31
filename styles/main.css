@@ -1,0 +1,58 @@
+/*ROOT*/
+:root {
+    --menu-bg-color: rgba(168, 168, 168, 0.8);
+    --page-bg-color:#6d6d6d ;
+    --menu-fg-color: #000000;
+    --link-color: #1b1b1b;
+    --accent-color: #636667;
+    --main-fg-color: #ffffff;
+    --medium-gap: 1rem;
+}
+
+/*HTML*/
+html {
+    background-color: var(--page-bg-color);
+}
+
+/*menu*/
+body > nav.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--menu-bg-color);
+}
+ul.main-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.main-menu li a {
+    padding: var(--medium-gap);
+    display: block;
+    text-decoration: none;
+    color: var(--menu-fg-color);
+}
+ul.main-menu li a:hover {
+    background-color: var(--accent-color);
+    color: var(--main-fg-color);
+}
+ul.main-menu li a::after {
+    content: none;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
