@@ -13,7 +13,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 
 ### HTML, struktura souborů
 
-* [ ] Web má alespoň dvě stránky provázané společnými styly
+* [x] Web má alespoň dvě stránky provázané společnými styly
 * [ ] HTML kód je validní bez chyb ve [validátoru](https://validator.w3.org/)
 * [ ] HTML značky dávají smysl, kód obsahuje ``<article>``, ``<section>``, ``<header>``, ``<nav>``.
 * [ ] Navigace mezi stránkami je tvořená přes ``<nav><ul><li><a>`` a je funkční i po zkopírování na lokální disk
