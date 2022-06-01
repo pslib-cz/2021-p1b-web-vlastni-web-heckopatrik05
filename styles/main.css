@@ -2,8 +2,8 @@
 :root {
     --menu-bg-color: rgba(168, 168, 168, 0.8);
     --page-bg-color:#6d6d6d ;
-    --menu-fg-color: #000000;
-    --link-color: #1b1b1b;
+    --menu-fg-color: #ffffff;
+    --link-color: #ffffff;
     --accent-color: #636667;
     --main-fg-color: #ffffff;
     --medium-gap: 1rem;
@@ -14,32 +14,41 @@ html {
     background-color: var(--page-bg-color);
 }
 
-/*menu*/
-body > nav.main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--menu-bg-color);
+/*NAVBAR*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
-ul.main-menu {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+.nav-list {
+  background: rgb(220, 92, 12);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 1rem 0;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-ul.main-menu li a {
-    padding: var(--medium-gap);
-    display: block;
-    text-decoration: none;
-    color: var(--menu-fg-color);
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
 }
-ul.main-menu li a:hover {
-    background-color: var(--accent-color);
-    color: var(--main-fg-color);
+
+.nav-item a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 200ms ease-in;
 }
-ul.main-menu li a::after {
-    content: none;
+
+.nav-item a:hover {
+  color: black;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
 }
 
 /*scrollbar*/
@@ -47,12 +56,34 @@ ul.main-menu li a::after {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+/*FOOTER*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(220, 92, 12);
+    color: white;
+}
+
+.change a:hover{
+    color: black;
+    
+}
+.change a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 200ms ease-in;
   }
 
