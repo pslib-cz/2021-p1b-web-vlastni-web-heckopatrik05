@@ -97,7 +97,7 @@ footer{
 
 /*KARTY NA KONTAKTY*/
 .card-center{
-  margin-bottom: 20vh;
+  margin-bottom: 18vh;
   display: flex;
   flex-basis: 25%;
   flex-wrap: wrap;
