@@ -10,7 +10,7 @@
 
 /*HTML*/
 html {
-    background-color: var(--page-bg-color);
+  background-image:linear-gradient(rgb(54, 54, 54), rgb(121, 121, 121));
 }
 
 /*NAVBAR*/
@@ -59,9 +59,24 @@ html {
     background: #555;
   }
 
-/*FOOTER*/
+/*FOOTER, FOOTER-RELATIVE*/
+.footer-relative{
+  position: relative;
+  margin-top: 3em;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.5px;
+  background-color: rgba(255, 0, 0, 0.721);
+  color: white;
+}
+
 footer{
-    position: fixed;
+    position: absolute;
+    align-items: flex-end;  
+    margin-top: 3em;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     left: 0;
     bottom: 0;
@@ -81,6 +96,18 @@ footer{
   }
 
 /*KARTY NA KONTAKTY*/
+.card-center{
+  margin-bottom: 20vh;
+  display: flex;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -99,6 +126,9 @@ footer{
     transform: rotateY(180deg);
   }
   .flip-card-front, .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     width: 100%;
@@ -117,26 +147,38 @@ footer{
   }
 
   /*GALERIE*/
-  div.gallery {
-    margin: 5px;
-    position: fixed;
-    border: 1px solid rgba(255, 0, 0, 0.721);
+  .album{
+    display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .gallery img{
+    width: 100%;
+    min-height: 100%;
+  }
+  .gallery img:first-child{
+    height: 101%;
+  }
+  .gallery {
+    margin: 7vh 2.5vh;
+    height: 12.5vw;
+    width: 20vw;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
-    float: left;
-    width: 180px;
   }
   
   div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
   div.desc {
-    padding: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
     background: rgba(255, 0, 0, 0.721);
     text-align: center;
   }
