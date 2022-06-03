@@ -10,7 +10,7 @@
 
 /*HTML*/
 html {
-  background-image:linear-gradient(rgb(54, 54, 54), rgb(121, 121, 121));
+  background-image:linear-gradient(rgb(69, 123, 157), rgb(29, 53, 87));
 }
 
 /*NAVBAR*/
@@ -20,8 +20,8 @@ html {
   box-sizing: border-box;
 }
 .nav-list {
-  background: rgba(255, 0, 0, 0.721);
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-color: rgb(230, 57, 70);
+  box-shadow: 0px 0px 10px rgb(241, 250, 238);
   padding: 1rem 0;
   border-radius: var(--radius);
   display: flex;
@@ -31,6 +31,10 @@ html {
 .nav-item {
   list-style: none;
   margin-right: 2rem;
+}
+.nav-item img{
+  width: 50%;
+  height: 50%;
 }
 .nav-item a {
   font-size: 2vw;
@@ -55,26 +59,26 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: rgb(168, 218, 220);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(69, 123, 157);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(47, 89, 116);
   }
 
 /*FOOTER, FOOTER-RELATIVE*/
 .footer-relative{
   position: relative;
   margin-top: 3em;
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(241, 250, 238);
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 0.5px;
-  background-color: rgba(255, 0, 0, 0.721);
+  background-color: rgb(230, 57, 70);
   color: white;
 }
 
@@ -83,13 +87,13 @@ footer{
     position: absolute;
     align-items: flex-end;  
     margin-top: 3em;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(241, 250, 238);
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 0.5px;
-    background-color: rgba(255, 0, 0, 0.721);
+    background-color: rgb(230, 57, 70);
     color: white;
 }
 .change a:hover{
@@ -97,13 +101,14 @@ footer{
 }
 .change a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(241, 250, 238);
     transition: all 200ms ease-in;
   }
 
 /*KARTY NA KONTAKTY*/
 .card-center{
   margin-bottom: 18vh;
+  margin-top: 18vh;
   display: flex;
   flex-basis: 25%;
   flex-wrap: wrap;
@@ -136,20 +141,26 @@ footer{
     justify-content: center;
     align-items: center;
     position: absolute;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(241, 250, 238);
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
   .flip-card-front {
-    background-color: rgba(255, 0, 0, 0.721);
+    background-color: rgb(230, 57, 70);
     color: black;
   }
   .flip-card-back {
-    background-color: rgba(255, 0, 0, 0.721);
+    background-color: rgb(230, 57, 70);
     color: white;
     transform: rotateY(180deg);
+  }
+  .flip-card h1{
+    font-size: 1vw;
+  }
+  .flip-card p{
+    font-size: 1vw;
   }
 
   /*GALERIE*/
@@ -162,6 +173,8 @@ footer{
     margin-right: 15%;
     justify-content: space-evenly;
     align-items: baseline;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
   }
 
   .gallery img{
@@ -186,7 +199,7 @@ footer{
     font-size: 2vw;
     padding: 1rem;
     margin-bottom: 1rem;
-    background: rgba(255, 0, 0, 0.721);
+    background: rgb(230, 57, 70);
     text-align: center;
     box-shadow: 0px 0px 10px rgb(0, 0, 0)
   }
