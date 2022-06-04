@@ -7,6 +7,17 @@
     --main-fg-color: #ffffff;
     --medium-gap: 1rem;
 }
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 /*HTML*/
 html {
@@ -14,11 +25,6 @@ html {
 }
 
 /*NAVBAR*/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 .nav-list {
   background-color: rgb(230, 57, 70);
   box-shadow: 0px 0px 10px rgb(241, 250, 238);
@@ -37,15 +43,11 @@ html {
   height: 50%;
 }
 .nav-item a {
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: all 200ms ease-in;
 }
-.nav-item b {
-  font-size: 4vw;
-}
-
 .nav-item a:hover {
   color: black;
 }
@@ -92,21 +94,21 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 0.5px;
+    padding: 1px;
     background-color: rgb(230, 57, 70);
     color: white;
 }
 footer img{
   padding-top: 1vw;
   align-items: center;
-  height: 15%;
-  width: 15%;
+  height: 20%;
+  width: 20%;
 }
 .footer-relative img{
   padding-top: 1vw;
   align-items: center;
-  height: 15%;
-  width: 15%;
+  height: 25%;
+  width: 25%;
 }
 .change a:hover{
     color: black;   
@@ -132,6 +134,7 @@ footer img{
 }
 
 .flip-card {
+    margin-top: 10vh;
     background-color: transparent;
     width: 300px;
     height: 200px;
@@ -169,10 +172,10 @@ footer img{
     transform: rotateY(180deg);
   }
   .flip-card h1{
-    font-size: 1vw;
+    font-size: 100%;
   }
   .flip-card p{
-    font-size: 1vw;
+    font-size: 100%;
   }
 
   /*GALERIE*/
@@ -216,3 +219,43 @@ footer img{
     box-shadow: 0px 0px 10px rgb(0, 0, 0)
   }
 
+  /*PARALAX*/
+.parallax{
+    background: url("../images/ŠKODA.jpg") repeat fixed 100%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.parallax-1{
+    background: url("../images/volkswagen.jpg") repeat fixed 100%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.parallax-2{
+    background: url("../images/MERCEDES.jpg") repeat fixed 100%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+h3{
+    font-size: 3vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 10vw;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.648);
+    background-size: 50%;
+    text-align: center;
+}
