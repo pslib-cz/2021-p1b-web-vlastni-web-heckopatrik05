@@ -22,6 +22,7 @@
 /*HTML*/
 html {
   background-image:linear-gradient(rgb(69, 123, 157), rgb(29, 53, 87));
+  scroll-behavior: smooth;
 }
 
 /*NAVBAR*/
@@ -83,7 +84,16 @@ html {
   background-color: rgb(230, 57, 70);
   color: white;
 }
-
+.footer-relative a:hover{
+  color: black;
+}
+.footer-relative a{
+  text-align: center;
+  padding-left: 1vw;
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 footer{
     font-size: 1vw;
     position: absolute;
@@ -98,6 +108,16 @@ footer{
     background-color: rgb(230, 57, 70);
     color: white;
 }
+footer a:hover{
+  color: black;
+}
+footer a{
+  text-align: center;
+  padding-left: 1vw;
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 footer img{
   padding-top: 1vw;
   align-items: center;
@@ -110,14 +130,7 @@ footer img{
   height: 25%;
   width: 25%;
 }
-.change a:hover{
-    color: black;   
-}
-.change a {
-    text-decoration: none;
-    color: rgb(241, 250, 238);
-    transition: all 200ms ease-in;
-  }
+
 
 /*KARTY NA KONTAKTY*/
 .card-center{
@@ -221,21 +234,21 @@ footer img{
 
   /*PARALAX*/
 .parallax{
-    background: url("../images/ŠKODA.jpg") repeat fixed 100%;
+    background: url("../images/ŠKODA.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
     color: aliceblue;
 }
 .parallax-1{
-    background: url("../images/volkswagen.jpg") repeat fixed 100%;
+    background: url("../images/volkswagen.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
     color: aliceblue;
 }
 .parallax-2{
-    background: url("../images/MERCEDES.jpg") repeat fixed 100%;
+    background: url("../images/MERCEDES.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
