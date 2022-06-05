@@ -104,8 +104,6 @@ html {
   padding: 0.5px;
   background-color: rgb(230, 57, 70);
   color: white;
-  margin-top:2vw;
-  margin-bottom: 1vw;
 }
 .footer-relative1 a:hover{
   color: black;
@@ -287,8 +285,7 @@ h3{
     font-size: 3vw;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 1.5vw;
-    margin-bottom: 5vw;
+    padding: 2vw;
 }
 h1{
     font-size: 10vw;
