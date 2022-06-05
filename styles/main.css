@@ -82,11 +82,35 @@ html {
   padding: 0.5px;
   background-color: rgb(230, 57, 70);
   color: white;
+  margin-top:3vw;
 }
 .footer-relative a:hover{
   color: black;
 }
 .footer-relative a{
+  text-align: center;
+  padding-left: 1vw;
+  font-size: 2.5vw;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer-relative1{
+  position: relative;
+  box-shadow: 0px 0px 10px rgb(241, 250, 238);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.5px;
+  background-color: rgb(230, 57, 70);
+  color: white;
+  margin-top:2vw;
+  margin-bottom: 1vw;
+}
+.footer-relative1 a:hover{
+  color: black;
+}
+.footer-relative1 a{
   text-align: center;
   padding-left: 1vw;
   font-size: 2.5vw;
@@ -134,8 +158,8 @@ footer img{
 
 /*KARTY NA KONTAKTY*/
 .card-center{
-  margin-bottom: 18vh;
-  margin-top: 18vh;
+  margin-bottom: 2vw;
+  margin-top: 0.5vw;
   display: flex;
   flex-basis: 25%;
   flex-wrap: wrap;
@@ -201,7 +225,6 @@ footer img{
     margin-right: 15%;
     justify-content: space-evenly;
     align-items: baseline;
-    margin-top: 5vw;
   }
 
   .gallery img{
@@ -227,7 +250,7 @@ footer img{
     padding: 1rem;
     background: rgb(230, 57, 70);
     text-align: center;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0)
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
   }
 
   /*PARALAX*/
@@ -257,20 +280,20 @@ footer img{
     background-size: cover;
 }
 .parallax-inner{
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 65%;
+    padding-bottom: 50%;
 }
 h3{
     font-size: 3vw;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 2vw;
+    padding: 1.5vw;
+    margin-bottom: 5vw;
 }
 h1{
     font-size: 10vw;
     color: black;
     background-color: rgba(255, 255, 255, 0.648);
-    background-size: 50%;
     text-align: center;
 }
 
