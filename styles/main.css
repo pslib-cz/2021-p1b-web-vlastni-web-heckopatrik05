@@ -236,25 +236,29 @@ footer img{
 
   /*PARALAX*/
 .parallax{
-    background: url("../images/ŠKODA.jpg");
+    background: url("../images/ŠKODA.jpg") repeat fixed 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: aliceblue;
-}
+  }
+    
 .parallax-1{
-    background: url("../images/volkswagen.jpg");
+    background: url("../images/volkswagen.jpg") repeat fixed 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: aliceblue;
 }
 .parallax-2{
-    background: url("../images/MERCEDES.jpg");
+    background: url("../images/MERCEDES.jpg") repeat fixed 100%;;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: aliceblue;
 }
 .parallax-inner{
     padding-top: 20%;
