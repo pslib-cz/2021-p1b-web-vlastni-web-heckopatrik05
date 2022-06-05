@@ -236,7 +236,7 @@ footer img{
 
   /*PARALAX*/
 .parallax{
-    background: url("../images/ŠKODA.jpg") repeat fixed 100%;
+    background: url("../images/ŠKODA.jpg") 100%;
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -245,7 +245,7 @@ footer img{
   }
     
 .parallax-1{
-    background: url("../images/volkswagen.jpg") repeat fixed 100%;
+    background: url("../images/volkswagen.jpg") 100%;
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -253,7 +253,7 @@ footer img{
     background-size: cover;
 }
 .parallax-2{
-    background: url("../images/MERCEDES.jpg") repeat fixed 100%;;
+    background: url("../images/MERCEDES.jpg") 100%;
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
