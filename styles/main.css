@@ -270,7 +270,7 @@ footer img{
     background-size: cover;
 }
 .parallax-2{
-    background: url("../images/MERCEDES.jpg") 100%;
+    background: url("../images/MERCEDES.png") 100%;
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
