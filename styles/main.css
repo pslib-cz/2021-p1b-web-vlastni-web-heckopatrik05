@@ -144,8 +144,8 @@ footer a{
 footer img{
   padding-top: 1vw;
   align-items: center;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
   height: 25%;
   width: 25%;
 }
@@ -158,8 +158,12 @@ footer img{
 .footer-relative1 img{
   padding-top: 1vw;
   align-items: center;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  height: 25%;
+  width: 25%;
+}
+.arrow img{
+  height: 25%;
+  width: 75%;
 }
 
 
@@ -313,15 +317,27 @@ h2{
 
 /*ZDROJE*/
 .links{
-  background-color: #121111;
-  box-shadow: var(--white);
-  width: 1000px;
-  height: 500px;
-  margin-top: 2vw;
-  margin-left: 10vw;
-  margin-right: 5vw;
+  margin: 15vh auto;
+  padding-bottom: 5vh;
+  background-color:var(--coral-red);
+  width: 90%;
+  justify-content: center;
+  height: 100%;
+}
+.links h2{
+  color: var(--white);
 }
 
 .link{
-  align-items: center;
+  display: block;
+  width: 60%;
+  margin: auto;
+  font-size: 1.5vw;
+  padding-top: 5px;
+  color: var(--black);
+  text-align: center;
 }
+.link a:hover{
+  color: var(--black);
+}
+
