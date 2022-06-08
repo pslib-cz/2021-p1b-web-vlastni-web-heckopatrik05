@@ -340,6 +340,9 @@ h2{
 .link a::before{
   content: "\00BB";
 }
+.link a::after{
+  content: "\00AB";
+}
 .link a:hover{
   color: var(--black);
 }

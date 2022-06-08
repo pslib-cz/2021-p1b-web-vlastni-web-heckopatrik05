@@ -21,7 +21,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Soubory webu se nacházejí v GitHubovém repozitáři
 * [x] V repozitáři se soubory ocitly pomocí commitů a pushů a těch je více než 3, rozprostřených do celé doby vypracovávání zadání
 * [x] Web je dostupný přes Github Pages (do README.md přidejte odkaz)
-* [ ] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
+* [x] Celková načítaná velikost jednotlivých stránek nepřesahuje jednotky MiB
 * [x] Stránka obsahuje formátovaný seznam zdrojů textu a obrázků
 
 ### CSS, vzhled
@@ -62,3 +62,6 @@ Po splnění předchozích bodů
 
 * [CSS Tricks Guides](https://css-tricks.com/guides/)
 * [Metodika BEM](http://getbem.com/introduction/)
+
+## ODKAZ NA STRÁNKU
+* https://pslib-cz.github.io/2021-p1b-web-vlastni-web-heckopatrik05/
