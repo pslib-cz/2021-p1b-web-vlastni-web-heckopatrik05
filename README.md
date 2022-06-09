@@ -29,11 +29,11 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Stránky používají několik souborů stylů, jeden z nich je [normalize](https://necolas.github.io/normalize.css/)
 * [x] Ke stránkám jsou připojeny externí fonty (např. přes [Google Fonts](https://fonts.google.com/))
 * [x] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
-* [ ] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
-* [ ] Obrázky mají rozumnou velikost pro mobilní telefon
+* [x] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
+* [x] Obrázky mají rozumnou velikost pro mobilní telefon
 * [ ] Velikosti písem jsou odvozeny od kořenového elementu
 * [ ] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
-* [ ] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties))
+* [x] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties))
 * [x] Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z [editoru palet](https://coolors.co/palettes/trending)
 * [x] Šířka hlavního bloku stránky je omezená (tedy používá například ``width``, ``margin``, ``max-width``)
 * [x] Web obsahuje obrázek v záhlaví zobrazovaný na celou velikost/výšku obrazovky
