@@ -64,4 +64,4 @@ Po splnění předchozích bodů
 * [Metodika BEM](http://getbem.com/introduction/)
 
 ## ODKAZ NA STRÁNKU
-* https://pslib-cz.github.io/2021-p1b-web-vlastni-web-heckopatrik05/
+* >>>>>>> https://pslib-cz.github.io/2021-p1b-web-vlastni-web-heckopatrik05/
