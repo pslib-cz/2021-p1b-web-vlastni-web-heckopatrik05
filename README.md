@@ -31,8 +31,8 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 * [x] Stránka obsahuje horizontální nebo vertikální menu s odkazy na celou plochu nabídky
 * [x] Vzhled stránek je zamýšlen na mobilní telefon pro rozměr od cca 360px do 960px. Content-wrapper má omezení na ``max-width: 960px; margin: 0 auto;``
 * [x] Obrázky mají rozumnou velikost pro mobilní telefon
-* [ ] Velikosti písem jsou odvozeny od kořenového elementu
-* [ ] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
+* [x] Velikosti písem jsou odvozeny od kořenového elementu
+* [x] Velikosti mezer kolem prvku jsou odvozeny od velikosti písma elementu
 * [x] Web používá omezenou paletu barev a mezer (lze zajistit přes [proměnné v CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties))
 * [x] Barevné schéma je vkusné a odpovídá tématu. Inspiraci můžete čerpat z [editoru palet](https://coolors.co/palettes/trending)
 * [x] Šířka hlavního bloku stránky je omezená (tedy používá například ``width``, ``margin``, ``max-width``)
@@ -43,7 +43,7 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
     min-height: 100vh;
 }
 ````
-* [ ] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
+* [x] Styly definují vzhled prvků podle typografických zvyklosti (velikosti nadpisů, formát odstavců)
 * [x] Odkazy (například menu) využívají efekt ``hover``
 * [x] Za nebo před odkazy v textu je přidána ikonka (např. šipka) (využití ``::before`` nebo ``::after``)
 
